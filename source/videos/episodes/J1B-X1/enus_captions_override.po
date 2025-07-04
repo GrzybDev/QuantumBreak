@@ -1,0 +1,1497 @@
+#
+msgid ""
+msgstr ""
+
+msgctxt "s0"
+msgid "[ CLOCK TICKING ]"
+msgstr ""
+
+msgctxt "s1"
+msgid "-[ SNIFFLES ]"
+msgstr ""
+
+msgctxt "s3"
+msgid "-TIME'S UP."
+msgstr ""
+
+msgctxt "s5"
+msgid "THE ONE IN THE MIDDLE -- I ASSUME THAT'S YOUR MOTHER."
+msgstr ""
+
+msgctxt "s7"
+msgid "THE LEFT, OF COURSE, YOUR FATHER."
+msgstr ""
+
+msgctxt "s9"
+msgid "AND ON THE RIGHT, THE LITTLE ONE -- HOW OLD IS SHE?"
+msgstr ""
+
+msgctxt "s12"
+msgid "114 LAFAYETTE. IS THAT CORRECT?"
+msgstr ""
+
+msgctxt "s16"
+msgid "THAT WAS TAKEN NOT FIVE MINUTES AGO BY MY ASSOCIATE MICHAEL."
+msgstr ""
+
+msgctxt "s19"
+msgid "-WHAT DO YOU WANT?"
+msgstr ""
+
+msgctxt "s22"
+msgid "-I WANT A STATEMENT."
+msgstr ""
+
+msgctxt "s24"
+msgid "AND YOU DON'T WANT MICHAEL OUTSIDE OF YOUR HOUSE A MOMENT LONGER."
+msgstr ""
+
+msgctxt "s28"
+msgid "-WHAT HAPPENS TO ME?"
+msgstr ""
+
+msgctxt "s31"
+msgid "-WELL, THAT'S ENTIRELY UP TO YOU."
+msgstr ""
+
+msgctxt "s34"
+msgid "-OKAY, I'LL DO IT."
+msgstr ""
+
+msgctxt "s37"
+msgid "-I'M SO GLAD WE COULD WORK THIS OUT."
+msgstr ""
+
+msgctxt "s39"
+msgid "-[ SIGHS ]"
+msgstr ""
+
+msgctxt "s41"
+msgid "-LIAM. WALK WITH ME."
+msgstr ""
+
+msgctxt "s45"
+msgid "SEEMS YOUR WORK'S BEEN UNDONE."
+msgstr ""
+
+msgctxt "s47"
+msgid "WE JUST LOST COMMUNICATION WITH JACK JOYCE'S TRANSPO'."
+msgstr ""
+
+msgctxt "s49"
+msgid "-HOW THE FUCK DOES THAT HAPPEN?"
+msgstr ""
+
+msgctxt "s51"
+msgid "-KNOWING HOW ISN'T IMPORTANT. YOU JUST NEED TO FIND HIM."
+msgstr ""
+
+msgctxt "s54"
+msgid "WINCOTT IS WORKING ON THE LOCATION."
+msgstr ""
+
+msgctxt "s56"
+msgid "-GREAT."
+msgstr ""
+
+msgctxt "s57"
+msgid "-WHAT IS IT?"
+msgstr ""
+
+msgctxt "s59"
+msgid "-WHAT?"
+msgstr ""
+
+msgctxt "s61"
+msgid "-SOMETHING'S WRONG."
+msgstr ""
+
+msgctxt "s63"
+msgid "-THE UNIVERSITY -- THAT'S NOT HOW WE OPERATE. IT WAS SLOPPY."
+msgstr ""
+
+msgctxt "s66"
+msgid "-HAVE ALL YOUR OPERATIONS GONE SMOOTHLY?"
+msgstr ""
+
+msgctxt "s68"
+msgid "GO HOME, LIAM. WAIT FOR THE CALL."
+msgstr ""
+
+msgctxt "s70"
+msgid "I'M SURE YOUR WIFE MISSES YOU."
+msgstr ""
+
+msgctxt "s72"
+msgid "♪♪"
+msgstr ""
+
+msgctxt "s74"
+msgid "[ KEYBOARD CLACKING ]"
+msgstr ""
+
+msgctxt "s77"
+msgid "-COME HERE, STAN."
+msgstr ""
+
+msgctxt "s79"
+msgid "[ MUTTERING ]"
+msgstr ""
+
+msgctxt "s81"
+msgid "GOOD THING ABOUT OUR FRIEND STAN IS STAN MAKES IT EASY."
+msgstr ""
+
+msgctxt "s83"
+msgid ""
+"SEE, THE GUY GOES AROUND USING THE SAME USERNAME AND PASSWORD EVERYWHERE HE "
+"GOES."
+msgstr ""
+
+msgctxt "s87"
+msgid "NOW [CHUCKLING] THAT MEANS THAT HIS CLOUD ISN'T SO PROTECTED."
+msgstr ""
+
+msgctxt "s90"
+msgid "MAY I PRESENT TO YOU EXHIBIT \"A\"?"
+msgstr ""
+
+msgctxt "s92"
+msgid "[ LAUGHING ] WOW. WOW."
+msgstr ""
+
+msgctxt "s94"
+msgid "GOD, THIS GUY'S SWINGING FOR THE FENCES."
+msgstr ""
+
+msgctxt "s96"
+msgid "AND..."
+msgstr ""
+
+msgctxt "s97"
+msgid "WHAT IS THAT?"
+msgstr ""
+
+msgctxt "s99"
+msgid "WHAT ARE YOU DOING, BRENNER?"
+msgstr ""
+
+msgctxt "s100"
+msgid "-IT'S A COFFEE CUP. -NO, I KNOW IT'S A COFFEE CUP."
+msgstr ""
+
+msgctxt "s103"
+msgid "BUT WHAT IS IT DOING ON MY TABLE? WHAT THE FUCK?"
+msgstr ""
+
+msgctxt "s105"
+msgid "YOU KNOW WHAT THIS IS? DO THEY HAVE THESE IN IDAHO?"
+msgstr ""
+
+msgctxt "s107"
+msgid "-IOWA. -WHATEVER. USE IT."
+msgstr ""
+
+msgctxt "s110"
+msgid "CAN YOU TELL ME WHAT'S NEXT, BRENNER?"
+msgstr ""
+
+msgctxt "s112"
+msgid "-I DON'T KNOW."
+msgstr ""
+
+msgctxt "s114"
+msgid "-I KNOW YOU DON'T KNOW. AND THAT MAKES ME SAD FOR YOU."
+msgstr ""
+
+msgctxt "s116"
+msgid ""
+"ALL WE DO NOW IS UPLOAD OUR GIRL'S VIDEO TO STAN AND OUR FANS AT WZWY..."
+msgstr ""
+
+msgctxt "s119"
+msgid "SEND STAN A NOTE WITH SOME OF HIS PRIVATE PICS."
+msgstr ""
+
+msgctxt "s121"
+msgid "AND LAST BUT NOT LEAST, WE POST A LETTER."
+msgstr ""
+
+msgctxt "s124"
+msgid ""
+"THAT LETTER ALLOWS RECLAIM TO TAKE FULL RESPONSIBILITY FOR EVERYTHING THAT'S"
+" HAPPENING,"
+msgstr ""
+
+msgctxt "s127"
+msgid "SIGNED SINCERELY, YOUR LOCAL TERRORIST JACK JOYCE."
+msgstr ""
+
+msgctxt "s130"
+msgid "YOU CAN SAY IT."
+msgstr ""
+
+msgctxt "s132"
+msgid "-IT'S PRETTY AWESOME."
+msgstr ""
+
+msgctxt "s134"
+msgid "-[ LAUGHING ] IT'S..."
+msgstr ""
+
+msgctxt "s135"
+msgid "[ RINGTONE PLAYING ]"
+msgstr ""
+
+msgctxt "s137"
+msgid "SHIT."
+msgstr ""
+
+msgctxt "s139"
+msgid "[ RINGTONE CONTINUES ]"
+msgstr ""
+
+msgctxt "s141"
+msgid "[ SIGHS ]"
+msgstr ""
+
+msgctxt "s143"
+msgid "MR. HATCH. PERFECT TIMING."
+msgstr ""
+
+msgctxt "s145"
+msgid ""
+"ME AND BRENNER, WE JUST DUG UP SOME MAJOR DIRT ON, UH, [LAUGHS] ON OUR NEWS "
+"DIRECTOR OVER AT WZWY."
+msgstr ""
+
+msgctxt "s149"
+msgid ""
+"HE'LL BE, UH -- HE'LL BE RUNNING OUR COPY AND POSTING THAT GIRL'S VIDEO "
+"WITHIN AN HOUR."
+msgstr ""
+
+msgctxt "s152"
+msgid "-GOOD WORK, WINCOTT. WHERE ARE WE WITH JOYCE?"
+msgstr ""
+
+msgctxt "s154"
+msgid "-JOYCE? UH, WELL, I-I GOT A LOCK ON HIS TRANSPO'."
+msgstr ""
+
+msgctxt "s157"
+msgid "I MEAN, I'VE HACKED INTO HIS CAMERA. I'M AWAITING FINAL LOCALE."
+msgstr ""
+
+msgctxt "s160"
+msgid "IT'S NOT -- IT'S NOT -- IT'S NOT INCREDIBLY EASY."
+msgstr ""
+
+msgctxt "s162"
+msgid ""
+"-KEEP AN EYE ON IT. AND WHEN YOU FIND HIM, CONTACT BURKE DIRECTLY. I THINK "
+"WE HAVE A TRAITOR IN OUR MIDST."
+msgstr ""
+
+msgctxt "s166"
+msgid "-TRAITOR. IT'S A -- HELLO? HELLO, MI--"
+msgstr ""
+
+msgctxt "s170"
+msgid "UH, I'M GONNA LET YOU GO, MR. HATCH. THANK YOU."
+msgstr ""
+
+msgctxt "s173"
+msgid "-WAS THAT MARTIN HATCH?"
+msgstr ""
+
+msgctxt "s175"
+msgid "-GET THE FUCK OUT OF MY OFFICE."
+msgstr ""
+
+msgctxt "s177"
+msgid "GET THE FUCK OUT OF MY OFFICE."
+msgstr ""
+
+msgctxt "s179"
+msgid "JUST..."
+msgstr ""
+
+msgctxt "s181"
+msgid "WHERE THE FUCK ARE YOU? HMM?"
+msgstr ""
+
+msgctxt "s183"
+msgid "WHERE THE FUCK? GIVE ME SOMETHING. COME ON, JOYCE."
+msgstr ""
+
+msgctxt "s186"
+msgid "♪♪"
+msgstr ""
+
+msgctxt "s188"
+msgid "[ DOOR OPENS, KEYS JINGLE, DOOR CLOSES ]"
+msgstr ""
+
+msgctxt "s190"
+msgid "-EM?"
+msgstr ""
+
+msgctxt "s192"
+msgid "-[ SIGHS ]"
+msgstr ""
+
+msgctxt "s195"
+msgid "-THINGS HAVE BEEN REALLY BAD AT WORK."
+msgstr ""
+
+msgctxt "s198"
+msgid "I'M SORRY. I JUST..."
+msgstr ""
+
+msgctxt "s202"
+msgid "-I DREAMT YOU WERE A CAT."
+msgstr ""
+
+msgctxt "s204"
+msgid "-A CAT? -MM-HMM."
+msgstr ""
+
+msgctxt "s205"
+msgid "-HM."
+msgstr ""
+
+msgctxt "s207"
+msgid "-[ CHUCKLES ] WITH THESE BIG, FURRY BEAR PAWS."
+msgstr ""
+
+msgctxt "s210"
+msgid "WAY TOO BIG FOR YOUR BODY."
+msgstr ""
+
+msgctxt "s213"
+msgid "IT WAS A STRANGE CREATURE."
+msgstr ""
+
+msgctxt "s216"
+msgid "BUT I KNEW IT WAS YOU."
+msgstr ""
+
+msgctxt "s219"
+msgid "-I HAVE TO GET BACK TO WORK SOON."
+msgstr ""
+
+msgctxt "s221"
+msgid "-[ SIGHS ]"
+msgstr ""
+
+msgctxt "s223"
+msgid "YOU WORK MORE THAN ANY FIELD MANAGER IN THE HISTORY OF FIELD MANAGERS."
+msgstr ""
+
+msgctxt "s226"
+msgid "-I KNOW."
+msgstr ""
+
+msgctxt "s228"
+msgid "-BABY, YOU HAVEN'T BEEN HOME IN TWO DAYS."
+msgstr ""
+
+msgctxt "s230"
+msgid "-YOUR MOM'S BEING DIFFICULT. YES, SHE IS."
+msgstr ""
+
+msgctxt "s232"
+msgid "-OH, I'M -- I'M -- I'M BEING DIFFICULT, HUH?"
+msgstr ""
+
+msgctxt "s234"
+msgid "-SHE'S BEING -- SHE'S BEING VERY DIFFICULT."
+msgstr ""
+
+msgctxt "s236"
+msgid "WHAT HAPPENED?"
+msgstr ""
+
+msgctxt "s238"
+msgid "-STOP. I DON'T THINK THAT'S GOOD FOR THE BABY."
+msgstr ""
+
+msgctxt "s241"
+msgid "-COME ON. OKAY, OKAY, OKAY."
+msgstr ""
+
+msgctxt "s242"
+msgid "OKAY. OKAY, YOU WIN."
+msgstr ""
+
+msgctxt "s245"
+msgid "-[ CHUCKLES ]"
+msgstr ""
+
+msgctxt "s248"
+msgid "CLOSE YOUR EYES."
+msgstr ""
+
+msgctxt "s251"
+msgid "[ CELLPHONE RINGS ]"
+msgstr ""
+
+msgctxt "s253"
+msgid "[ SIGHS ]"
+msgstr ""
+
+msgctxt "s255"
+msgid "[ RINGING CONTINUES ]"
+msgstr ""
+
+msgctxt "s257"
+msgid "-IT'S OKAY. GO."
+msgstr ""
+
+msgctxt "s260"
+msgid "-YEAH?"
+msgstr ""
+
+msgctxt "s262"
+msgid "-BURKE, GOT A LEAD ON JOYCE."
+msgstr ""
+
+msgctxt "s264"
+msgid "-WHAT IS IT?"
+msgstr ""
+
+msgctxt "s265"
+msgid "-I WAS ABLE TO TRACK HIS TRANSPO' TO A WAREHOUSE"
+msgstr ""
+
+msgctxt "s267"
+msgid "ON BURGUNDY AND WILKINS."
+msgstr ""
+
+msgctxt "s269"
+msgid "IT'S INSIDE GROUND-ZERO PERIMETER."
+msgstr ""
+
+msgctxt "s271"
+msgid "SENDING YOU THE COORDINATES NOW."
+msgstr ""
+
+msgctxt "s273"
+msgid "[ TV PLAYING INDISTINCTLY ]"
+msgstr ""
+
+msgctxt "s275"
+msgid "-I GOT TO GO."
+msgstr ""
+
+msgctxt "s278"
+msgid ""
+"-...FOUNDED IN 1999, MONARCH HAS SOUGHT TO ADVANCE OUR NATION'S "
+"TECHNOLOGICAL FRONTIERS"
+msgstr ""
+
+msgctxt "s282"
+msgid "BEYOND ANYTHING MANKIND HAS SEEN."
+msgstr ""
+
+msgctxt "s284"
+msgid ""
+"ALONG WITH ITS INNOVATIVE RESEARCH AND DESIGN PROGRAMS, MONARCH HAS SOUGHT "
+"OUT INVESTMENTS"
+msgstr ""
+
+msgctxt "s288"
+msgid ""
+"WITHIN THE CITY OF RIVERPORT IN ORDER TO REBUILD THIS GREAT CITY, "
+"TRANSFORMING IT INTO AN ECONOMIC POWERHOUSE."
+msgstr ""
+
+msgctxt "s292"
+msgid "OVER THE PAST..."
+msgstr ""
+
+msgctxt "s294"
+msgid "♪♪"
+msgstr ""
+
+msgctxt "s296"
+msgid "[ BICYCLE BELL RINGING ]"
+msgstr ""
+
+msgctxt "s298"
+msgid "[ INDISTINCT CONVERSATIONS ]"
+msgstr ""
+
+msgctxt "s301"
+msgid ""
+"...PAST DECADE, THE COMPANY'S PRESENCE HERE HAS BOLSTERED THE CITY'S "
+"EMPLOYMENT RATE BY 32%."
+msgstr ""
+
+msgctxt "s305"
+msgid ""
+"JUST LAST YEAR, C.E.O. MARTIN HATCH FOUNDED A TECHNICAL INSTITUTE RIGHT DOWN"
+" THE STREET FROM MONARCH HEADQUARTERS"
+msgstr ""
+
+msgctxt "s310"
+msgid "AND HAS HELPED EAGER STUDENTS FROM ALL OVER THE COUNTRY"
+msgstr ""
+
+msgctxt "s313"
+msgid ""
+"TO FURTHER THEIR DREAMS AND INTERESTS IN TECHNOLOGICAL RESEARCH AND DESIGN."
+msgstr ""
+
+msgctxt "s316"
+msgid ""
+"AND WITH MONARCH'S GREATEST INVESTMENT IN THE FUTURE BEING RIGHT HERE IN "
+"RIVERPORT,"
+msgstr ""
+
+msgctxt "s320"
+msgid "IT'S PRETTY CLEAR HOW BRIGHT THE FUTURE IS FOR ALL OF US."
+msgstr ""
+
+msgctxt "s323"
+msgid "-PAUL, THERE'S BEEN A DEVELOPMENT."
+msgstr ""
+
+msgctxt "s326"
+msgid "-JACK."
+msgstr ""
+
+msgctxt "s328"
+msgid "-YOU'VE ALREADY SEEN IT?"
+msgstr ""
+
+msgctxt "s329"
+msgid "-TONIGHT ON THE ISLAND."
+msgstr ""
+
+msgctxt "s331"
+msgid "HE'LL BE THERE, AND HE'LL WANT REVENGE."
+msgstr ""
+
+msgctxt "s334"
+msgid "WE NEED HIM STOPPED. NOW."
+msgstr ""
+
+msgctxt "s336"
+msgid "-I THINK OUR FOCUS MAY BE SOMEWHAT MISGUIDED HERE."
+msgstr ""
+
+msgctxt "s338"
+msgid "-YOUR FIFTH COLUMN TRAITOR?"
+msgstr ""
+
+msgctxt "s341"
+msgid "-YOU SHOULDN'T TAKE IT SO LIGHTLY."
+msgstr ""
+
+msgctxt "s343"
+msgid "JOYCE GOT LUCKY. HE ESCAPED. HE'S GONE."
+msgstr ""
+
+msgctxt "s345"
+msgid "HE WOULDN'T BE FOOLISH ENOUGH TO COME BACK."
+msgstr ""
+
+msgctxt "s347"
+msgid "OUR ONLY VULNERABILITY IS WITHIN, PAUL. YOU SHOULD SEE THAT."
+msgstr ""
+
+msgctxt "s350"
+msgid "-TELLING ME WHAT I'VE ALREADY SEEN --"
+msgstr ""
+
+msgctxt "s352"
+msgid "-YOU'RE NOT THINKING CLEARLY. YOU NEED YOUR TREATMENT."
+msgstr ""
+
+msgctxt "s355"
+msgid "-YOU'VE BEEN THE FACE OF MONARCH FOR ALL THESE YEARS,"
+msgstr ""
+
+msgctxt "s357"
+msgid "MARTIN, BUT LET'S GET CLEAR ON SOMETHING."
+msgstr ""
+
+msgctxt "s361"
+msgid "THIS IS STILL MY SHIP."
+msgstr ""
+
+msgctxt "s363"
+msgid "-AND I SIMPLY DON'T WANT TO SEE YOU GO DOWN WITH IT."
+msgstr ""
+
+msgctxt "s366"
+msgid "-JUST FIND HIM."
+msgstr ""
+
+msgctxt "s367"
+msgid ""
+"-WE TAKE YOU NOW TO RIVERPORT UNIVERSITY, WHERE A VIOLENT SHOWDOWN SHOOK THE"
+" TOWN LAST NIGHT."
+msgstr ""
+
+msgctxt "s371"
+msgid "JOINING US NOW IS AMY FERRARO, AN EYEWITNESS ON THE SCENE."
+msgstr ""
+
+msgctxt "s373"
+msgid "AMY, TELL US, WHAT IS GOING ON HERE?"
+msgstr ""
+
+msgctxt "s376"
+msgid ""
+"-THERE WERE PEOPLE FROM OUR GROUP WHO TOOK THINGS TOO FAR. THINGS GOT VERY "
+"VIOLENT."
+msgstr ""
+
+msgctxt "s380"
+msgid "AND THAT VIOLENCE WAS BECAUSE OF JACK JOYCE."
+msgstr ""
+
+msgctxt "s383"
+msgid "I WANT PEOPLE TO KNOW THAT HE IS A VERY DANGEROUS PERSON. A TERRORIST."
+msgstr ""
+
+msgctxt "s386"
+msgid "-TWO BACON-AND-EGG SANDWICHES? -THANKS."
+msgstr ""
+
+msgctxt "s389"
+msgid "-SOUNDS LIKE A TERRIFYING SCENE DOWN THERE."
+msgstr ""
+
+msgctxt "s390"
+msgid "WE REALLY APPRECIATE YOUR BRAVERY GOING ON RECORD"
+msgstr ""
+
+msgctxt "s393"
+msgid "TO SPEAK OUT AGAINST WHAT APPEARS TO BE SUCH A DANGEROUS PERSON."
+msgstr ""
+
+msgctxt "s395"
+msgid ""
+"-I WAS OVER IN THE LAB AT THE UNIVERSITY THIS MORNING. SOMEONE SOLVED THE "
+"EQUATION."
+msgstr ""
+
+msgctxt "s399"
+msgid "-HUH?"
+msgstr ""
+
+msgctxt "s400"
+msgid "-I JUST RECEIVED WORD THAT MONARCH SECURITY FORCES"
+msgstr ""
+
+msgctxt "s402"
+msgid ""
+"HAVE TEAMED UP WITH LOCAL POLICE TO HOPEFULLY EXPEDITE THE SEARCH FOR JACK "
+"JOYCE"
+msgstr ""
+
+msgctxt "s405"
+msgid ""
+"AND KEEP THE PEOPLE OF RIVERPORT SAFE AS THIS VERY UNSETTLING STORY "
+"CONTINUES TO UNFOLD."
+msgstr ""
+
+msgctxt "s409"
+msgid "-'SUP, I.T.?"
+msgstr ""
+
+msgctxt "s410"
+msgid "-YOU WISH I WAS I.T."
+msgstr ""
+
+msgctxt "s412"
+msgid "HEY, YOU DON'T HAVE THE SECURITY CLEARANCE TO BE IN HERE."
+msgstr ""
+
+msgctxt "s414"
+msgid "-SECURITY CLEARANCE."
+msgstr ""
+
+msgctxt "s416"
+msgid "-ACCESS GRANTED."
+msgstr ""
+
+msgctxt "s417"
+msgid "-I THOUGHT YOU MIGHT'VE BEEN UP ALL NIGHT, SO..."
+msgstr ""
+
+msgctxt "s420"
+msgid "-YOU DIDN'T GET THE RUNNY KIND, DID YOU?"
+msgstr ""
+
+msgctxt "s422"
+msgid "-NO, SHOULDN'T BE."
+msgstr ""
+
+msgctxt "s424"
+msgid "-[ SIGHS ]"
+msgstr ""
+
+msgctxt "s426"
+msgid "IT'S COOL. THEY'RE NEW."
+msgstr ""
+
+msgctxt "s428"
+msgid "OH, MAN."
+msgstr ""
+
+msgctxt "s429"
+msgid "-FIONA MILLER..."
+msgstr ""
+
+msgctxt "s431"
+msgid "...TERMINATED."
+msgstr ""
+
+msgctxt "s433"
+msgid "YOU'RE FIRED."
+msgstr ""
+
+msgctxt "s434"
+msgid "-SO, WHAT'S THE -- WHAT'S THE 411?"
+msgstr ""
+
+msgctxt "s436"
+msgid "WHAT THE HELL'S GOING ON OUT THERE?"
+msgstr ""
+
+msgctxt "s438"
+msgid "-411? -YEAH, THE 411."
+msgstr ""
+
+msgctxt "s440"
+msgid "-[ LAUGHS ]"
+msgstr ""
+
+msgctxt "s441"
+msgid "UH, EVERYTHING -- EVERYTHING'S FINE."
+msgstr ""
+
+msgctxt "s444"
+msgid "-EVERYTHING'S FINE?"
+msgstr ""
+
+msgctxt "s446"
+msgid "-EVERYTHING'S FINE."
+msgstr ""
+
+msgctxt "s448"
+msgid "-THERE WAS A SHOOTOUT AT THE UNIVERSITY LAST NIGHT."
+msgstr ""
+
+msgctxt "s450"
+msgid "-NOTHING I COULDN'T HANDLE."
+msgstr ""
+
+msgctxt "s452"
+msgid "-ALL RIGHT."
+msgstr ""
+
+msgctxt "s454"
+msgid "YOU THINK THEY'RE GONNA CANCEL THE PARTY TONIGHT?"
+msgstr ""
+
+msgctxt "s456"
+msgid "-ARE YOU KIDDING? NO WAY. HATCH KNOWS WHAT HE'S DOING."
+msgstr ""
+
+msgctxt "s459"
+msgid "-YOU GONNA GO?"
+msgstr ""
+
+msgctxt "s461"
+msgid "-TO A PARTY? ME?"
+msgstr ""
+
+msgctxt "s463"
+msgid "GO TO A PARTY? I DON'T KNOW."
+msgstr ""
+
+msgctxt "s465"
+msgid "-WE CAN ROLL TOGETHER IF YOU WANT."
+msgstr ""
+
+msgctxt "s467"
+msgid "-O-OKAY. Y-YEAH."
+msgstr ""
+
+msgctxt "s470"
+msgid "ALL RIGHT. I-I'LL GO."
+msgstr ""
+
+msgctxt "s471"
+msgid "[ CELLPHONE VIBRATES ]"
+msgstr ""
+
+msgctxt "s473"
+msgid "-OKAY, BUDDY."
+msgstr ""
+
+msgctxt "s475"
+msgid "WHAT ARE YOU GONNA WEAR?"
+msgstr ""
+
+msgctxt "s477"
+msgid "-YEAH, I DON'T KNOW. I DON'T KNOW."
+msgstr ""
+
+msgctxt "s479"
+msgid "MAYBE, UH...MAYBE I'LL GO NAKED."
+msgstr ""
+
+msgctxt "s482"
+msgid "-NICE. I LIKE THAT."
+msgstr ""
+
+msgctxt "s484"
+msgid "UM, I GOT TO GET BACK TO MY DESK."
+msgstr ""
+
+msgctxt "s485"
+msgid "SO, SEE YOU TONIGHT?"
+msgstr ""
+
+msgctxt "s487"
+msgid "-YEAH."
+msgstr ""
+
+msgctxt "s490"
+msgid "I'LL SEE YOU TONIGHT."
+msgstr ""
+
+msgctxt "s492"
+msgid "-YEP."
+msgstr ""
+
+msgctxt "s494"
+msgid "-BUDDY."
+msgstr ""
+
+msgctxt "s496"
+msgid "BUDDY."
+msgstr ""
+
+msgctxt "s498"
+msgid "♪♪"
+msgstr ""
+
+msgctxt "s501"
+msgid "[ BIRD CAWING ]"
+msgstr ""
+
+msgctxt "s503"
+msgid "[ ENGINE SHUTS OFF ]"
+msgstr ""
+
+msgctxt "s506"
+msgid "[ HANDCUFFS CLATTER ]"
+msgstr ""
+
+msgctxt "s509"
+msgid "-[ BREATHING HEAVILY ]"
+msgstr ""
+
+msgctxt "s511"
+msgid "LIAM, THIS ISN'T WHAT IT LOOKS LIKE."
+msgstr ""
+
+msgctxt "s513"
+msgid "-FUCK, BETH."
+msgstr ""
+
+msgctxt "s515"
+msgid "I REALLY DIDN'T WANT IT TO BE YOU."
+msgstr ""
+
+msgctxt "s517"
+msgid "-YOU NEED TO LISTEN TO ME."
+msgstr ""
+
+msgctxt "s519"
+msgid "-STEP AWAY FROM THE VAN."
+msgstr ""
+
+msgctxt "s522"
+msgid "STEP AWAY! RIGHT NOW!"
+msgstr ""
+
+msgctxt "s524"
+msgid "DROP THE GUN."
+msgstr ""
+
+msgctxt "s526"
+msgid "-I CAN'T DO THAT."
+msgstr ""
+
+msgctxt "s527"
+msgid "YOU HAVE THREE SECONDS TILL I PULL."
+msgstr ""
+
+msgctxt "s529"
+msgid "-I HAVE BETTER REFLEXES."
+msgstr ""
+
+msgctxt "s531"
+msgid "-AND YOU'RE A MARKSMAN FOR SHIT."
+msgstr ""
+
+msgctxt "s533"
+msgid "-NO."
+msgstr ""
+
+msgctxt "s535"
+msgid "NO!"
+msgstr ""
+
+msgctxt "s537"
+msgid "AW, SHIT. HE'S GONE."
+msgstr ""
+
+msgctxt "s540"
+msgid "DO YOU SEE WHAT'S HAPPENING?"
+msgstr ""
+
+msgctxt "s541"
+msgid "-THE STUTTERS."
+msgstr ""
+
+msgctxt "s543"
+msgid "-MORE AND MORE."
+msgstr ""
+
+msgctxt "s545"
+msgid "-BETH, WHAT IS -- WHAT IS GOING ON?"
+msgstr ""
+
+msgctxt "s547"
+msgid "-TIME IS BREAKING DOWN."
+msgstr ""
+
+msgctxt "s549"
+msgid "THE END IS COMING, AND JOYCE COULD BE THE KEY."
+msgstr ""
+
+msgctxt "s551"
+msgid "-WAIT. SO, WAIT. THE -- THE END? THE END OF WHAT?"
+msgstr ""
+
+msgctxt "s554"
+msgid "BETH, THE END OF -- THE END OF WHAT?!"
+msgstr ""
+
+msgctxt "s556"
+msgid "-OF TIME. OF TIME. OF TIME."
+msgstr ""
+
+msgctxt "s558"
+msgid "OF LIFE AS WE KNOW IT. THE ENTIRE UNIVERSE -- GONE."
+msgstr ""
+
+msgctxt "s560"
+msgid "AND SOMEHOW, MONARCH HAS BEEN PREPARING FOR IT."
+msgstr ""
+
+msgctxt "s563"
+msgid "THEY KNEW IT WAS COMING."
+msgstr ""
+
+msgctxt "s565"
+msgid "THERE'S THIS THING. IT'S CALLED THE LIFEBOAT PROTOCOL,"
+msgstr ""
+
+msgctxt "s568"
+msgid "AND IT CAN SAVE US -- AT LEAST SOME OF US."
+msgstr ""
+
+msgctxt "s570"
+msgid "-PUT YOUR HANDS ON YOUR HEAD. DOWN ON YOUR KNEES."
+msgstr ""
+
+msgctxt "s572"
+msgid "-BROWN."
+msgstr ""
+
+msgctxt "s574"
+msgid "-WILDER, DO NOT MAKE ME ASK AGAIN."
+msgstr ""
+
+msgctxt "s576"
+msgid "JOYCE JUST TOOK DOWN HALF MY MEN."
+msgstr ""
+
+msgctxt "s578"
+msgid "THINK MAYBE HE HAD SOME HELP?"
+msgstr ""
+
+msgctxt "s580"
+msgid "-WE'RE UNARMED. I WAS RESPONDING TO A CALL."
+msgstr ""
+
+msgctxt "s582"
+msgid "-I DO NOT GIVE A FUCK."
+msgstr ""
+
+msgctxt "s583"
+msgid "-HEY, I AM WITH MONARCH."
+msgstr ""
+
+msgctxt "s585"
+msgid "-ON YOUR KNEES!"
+msgstr ""
+
+msgctxt "s587"
+msgid "-LIAM, IF THEY TAKE ME IN, THEN IT'S THE END FOR ME --"
+msgstr ""
+
+msgctxt "s589"
+msgid "AND FOR YOU."
+msgstr ""
+
+msgctxt "s591"
+msgid "-NOW."
+msgstr ""
+
+msgctxt "s592"
+msgid "-UM, JUST DO WHAT HE SAYS."
+msgstr ""
+
+msgctxt "s594"
+msgid "-DO NOT LET THEM TAKE US."
+msgstr ""
+
+msgctxt "s596"
+msgid "WE'LL NEVER FIND THE LIFEBOAT. THINK ABOUT EMILY."
+msgstr ""
+
+msgctxt "s598"
+msgid "-JUST RELAX."
+msgstr ""
+
+msgctxt "s599"
+msgid "-LIAM."
+msgstr ""
+
+msgctxt "s600"
+msgid "-SHUT UP!"
+msgstr ""
+
+msgctxt "s602"
+msgid "-[ BREATHING HEAVILY ]"
+msgstr ""
+
+msgctxt "s604"
+msgid "-THIS LIFEBOAT PROTOCOL -- WHAT IS IT?"
+msgstr ""
+
+msgctxt "s606"
+msgid "-I DON'T KNOW, BUT DR. KIM WAS AT THE CENTER OF IT."
+msgstr ""
+
+msgctxt "s609"
+msgid "-DR. KIM?"
+msgstr ""
+
+msgctxt "s611"
+msgid "-IF YOU CAN GET INTO HIS LAB."
+msgstr ""
+
+msgctxt "s612"
+msgid "-THAT'S IMPOSSIBLE."
+msgstr ""
+
+msgctxt "s614"
+msgid "IT'S BEEN CLOSED EVER SINCE HE DISAPPEARED."
+msgstr ""
+
+msgctxt "s616"
+msgid "-DO YOU KNOW ANYONE WHO COULD GET YOU IN?"
+msgstr ""
+
+msgctxt "s618"
+msgid "-HMM. COME ON, GUYS."
+msgstr ""
+
+msgctxt "s620"
+msgid "PBHT!"
+msgstr ""
+
+msgctxt "s622"
+msgid "29 DOWN, 40 MORE TO GO."
+msgstr ""
+
+msgctxt "s625"
+msgid "AND..."
+msgstr ""
+
+msgctxt "s627"
+msgid "ONE MORE."
+msgstr ""
+
+msgctxt "s629"
+msgid "THANKS, FIONA. THAT'S DISGUSTING."
+msgstr ""
+
+msgctxt "s632"
+msgid "HM."
+msgstr ""
+
+msgctxt "s634"
+msgid "HOLY...SHIT."
+msgstr ""
+
+msgctxt "s638"
+msgid "LIAM BURKE."
+msgstr ""
+
+msgctxt "s641"
+msgid "[ SIGHS ]"
+msgstr ""
+
+msgctxt "s643"
+msgid "GOTCHA, BUDDY."
+msgstr ""
+
+msgctxt "s645"
+msgid "HATCH IS GONNA LOVE THIS."
+msgstr ""
+
+msgctxt "s647"
+msgid "OH, SHIT."
+msgstr ""
+
+msgctxt "s649"
+msgid "THE FUCKING GOLDEN BOY."
+msgstr ""
+
+msgctxt "s651"
+msgid "♪♪"
+msgstr ""
+
+msgctxt "s654"
+msgid "[ INDISTINCT CONVERSATIONS ]"
+msgstr ""
+
+msgctxt "s657"
+msgid "AW, MAN."
+msgstr ""
+
+msgctxt "s659"
+msgid "GOTCHA."
+msgstr ""
+
+msgctxt "s661"
+msgid "-MONARCH EMPLOYEES, THE FOOD TRUCKS WILL BE PARKED OUTSIDE TILL 2:30."
+msgstr ""
+
+msgctxt "s664"
+msgid "-CHARLIE. I NEED A FAVOR."
+msgstr ""
+
+msgctxt "s666"
+msgid "-YEAH."
+msgstr ""
+
+msgctxt "s667"
+msgid "-UM, COULD WE TALK SOMEWHERE PRIVATE?"
+msgstr ""
+
+msgctxt "s669"
+msgid "-UH, I'D REALLY RATHER NOT."
+msgstr ""
+
+msgctxt "s671"
+msgid "-IN YOUR OFFICE WOULD BE GOOD."
+msgstr ""
+
+msgctxt "s673"
+msgid "IT'LL BE REALLY QUICK."
+msgstr ""
+
+msgctxt "s675"
+msgid "-YEAH."
+msgstr ""
+
+msgctxt "s676"
+msgid "SO, WHAT HAPPENED WITH JOYCE?"
+msgstr ""
+
+msgctxt "s677"
+msgid "-UH, THERE WAS NOTHING THERE."
+msgstr ""
+
+msgctxt "s679"
+msgid "-HUH. THERE'S NOTHING THERE? LIKE, HE JUST WASN'T THERE?"
+msgstr ""
+
+msgctxt "s681"
+msgid "LIKE -- OR WHAT?"
+msgstr ""
+
+msgctxt "s682"
+msgid "-NO. HATCH -- HE, UM -- HE REASSIGNED ME."
+msgstr ""
+
+msgctxt "s685"
+msgid "HE WANTS ME TO SECURE THE PERIMETER LAB. ON THE ISLAND?"
+msgstr ""
+
+msgctxt "s688"
+msgid "HE THINKS JOYCE MIGHT GO THERE."
+msgstr ""
+
+msgctxt "s690"
+msgid "YEAH, HE SENT ME HERE TO GET ACCESS TO IT."
+msgstr ""
+
+msgctxt "s692"
+msgid "CAN YOU HELP ME OUT?"
+msgstr ""
+
+msgctxt "s694"
+msgid "-YEAH, SURE. LET ME, UH -- LET ME SEE WHAT I CAN DO."
+msgstr ""
+
+msgctxt "s697"
+msgid "-THANK YOU."
+msgstr ""
+
+msgctxt "s699"
+msgid "-YOU KNOW, IT'S REALLY FUNNY THAT YOU SAY THAT, UH,"
+msgstr ""
+
+msgctxt "s701"
+msgid "THAT LEAD ON JOYCE WAS NO GOOD, BECAUSE..."
+msgstr ""
+
+msgctxt "s704"
+msgid "OH, UH..."
+msgstr ""
+
+msgctxt "s706"
+msgid "IT SURE LOOKS LIKE HE WAS THERE."
+msgstr ""
+
+msgctxt "s708"
+msgid "AND THAT OTHER GUY KIND OF LOOKS LIKE YOU,"
+msgstr ""
+
+msgctxt "s710"
+msgid "BUT THAT'S WEIRD, BECAUSE YOU WORK FOR MONARCH, AND THAT GUY"
+msgstr ""
+
+msgctxt "s712"
+msgid "CLEARLY -- HE CLEARLY DOES NOT WORK FOR MONARCH."
+msgstr ""
+
+msgctxt "s716"
+msgid "NOW, I COULD ZOOM IN -- HEY! WASTE TIME KILLING ME?"
+msgstr ""
+
+msgctxt "s718"
+msgid "'CAUSE I JUST PUT A HIGH-SECURITY ALERT OUT ON YOUR ASS."
+msgstr ""
+
+msgctxt "s720"
+msgid "YOU GOT ABOUT 20 SECONDS."
+msgstr ""
+
+msgctxt "s722"
+msgid "-YOU'RE BLUFFING."
+msgstr ""
+
+msgctxt "s724"
+msgid "-HEY, YOU'RE WELCOME TO STICK AROUND TO TRY TO FIND OUT."
+msgstr ""
+
+msgctxt "s725"
+msgid "-YOU KNOW WHAT I'M GONNA DO TO YOU?"
+msgstr ""
+
+msgctxt "s727"
+msgid "-I HAVE A PRETTY GOOD IDEA WHAT MONARCH'S GONNA DO TO YOU"
+msgstr ""
+
+msgctxt "s730"
+msgid "IN ABOUT 15, 14, 13, 12, 11, 10."
+msgstr ""
+
+msgctxt "s735"
+msgid "GOOD LUCK, BUDDY. NINE, EIGHT."
+msgstr ""
+
+msgctxt "s737"
+msgid "WE NEED ALL POINTS CONVERGED ON LIAM BURKE."
+msgstr ""
+
+msgctxt "s740"
+msgid "HE'S ARMED AND DANGEROUS."
+msgstr ""
+
+msgctxt "s741"
+msgid "♪♪"
+msgstr ""
+
+msgctxt "s744"
+msgid "LISTEN UP. HE'S ON LEVEL \"B,\" NEAR THE MAIN OVERPASS."
+msgstr ""
+
+msgctxt "s747"
+msgid "-JUST A REMINDER TO MONARCH EMPLOYEES. GET YOUR FLU SHOTS."
+msgstr ""
+
+msgctxt "s750"
+msgid "THEY ARE FREE OF CHARGE. GET THEM IN HR."
+msgstr ""
+
+msgctxt "s753"
+msgid "[ CROWD GASPING ]"
+msgstr ""
+
+msgctxt "s755"
+msgid "[ ALARM BLARING ]"
+msgstr ""
+
+msgctxt "s757"
+msgid "-GO, GO!"
+msgstr ""
+
+msgctxt "s760"
+msgid "-FUCKING IDIOTS."
+msgstr ""
+
+msgctxt "s762"
+msgid "-LIAM, STOP!"
+msgstr ""
+
+msgctxt "s764"
+msgid "-HE'S NOT INVINCIBLE. HE'S NOT A FUCKING SUPERHERO."
+msgstr ""
+
+msgctxt "s766"
+msgid "BRENNER, I'M DEALING WITH IT."
+msgstr ""
+
+msgctxt "s768"
+msgid "YEAH, I KNOW. I KNOW. HE'S IN THE BUILDING. YEAH."
+msgstr ""
+
+msgctxt "s771"
+msgid "SOUTH PARKING STRUCTURE."
+msgstr ""
+
+msgctxt "s773"
+msgid "I REPEAT -- SOUTH PARKING STRUCTURE -- FOURTH FLOOR."
+msgstr ""
+
+msgctxt "s775"
+msgid "[ TIRES SQUEAL ]"
+msgstr ""
+
+msgctxt "s777"
+msgid "SECOND FLOOR. YOU GOT TO CUT HIM OFF."
+msgstr ""
+
+msgctxt "s779"
+msgid "[ HORN HONKS ]"
+msgstr ""
+
+msgctxt "s780"
+msgid "[ TIRES SCREECH ]"
+msgstr ""
+
+msgctxt "s782"
+msgid "HE'S HEADING OUT THE ENTRANCE."
+msgstr ""
+
+msgctxt "s784"
+msgid "[ HORN HONKING ]"
+msgstr ""
+
+msgctxt "s786"
+msgid "[ ENGINE TURNS OVER ]"
+msgstr ""
+
+msgctxt "s788"
+msgid "[ INDISTINCT SHOUTING ]"
+msgstr ""
+
+msgctxt "s791"
+msgid "AW, COME ON!"
+msgstr ""
+
+msgctxt "s792"
+msgid "OKAY, HE'S HEADING SOUTH ON EASTMAN. SOUTH ON EASTMAN."
+msgstr ""
+
+msgctxt "s794"
+msgid "[ HORN BLARING ]"
+msgstr ""
+
+msgctxt "s796"
+msgid "VANDAL TEAM, HE'S HEADED TO YOU. HE'S FLYING. LOOK OUT."
+msgstr ""
+
+msgctxt "s799"
+msgid "-COPY."
+msgstr ""
+
+msgctxt "s800"
+msgid "-CUT HIM OFF. CUT -- DON'T."
+msgstr ""
+
+msgctxt "s803"
+msgid "-COME ON. YOU GOT THIS."
+msgstr ""
+
+msgctxt "s805"
+msgid "STICK WITH HIM."
+msgstr ""
+
+msgctxt "s807"
+msgid "GET ME ALONGSIDE HIM."
+msgstr ""
+
+msgctxt "s809"
+msgid "[ TIRES SCREECHING ]"
+msgstr ""
+
+msgctxt "s811"
+msgid "-DAMN IT!"
+msgstr ""
+
+msgctxt "s812"
+msgid "-OH, MY GOD! GET HIM!"
+msgstr ""
+
+msgctxt "s814"
+msgid "THIRD STREET. HE'S HEADED TO THE ALLEY."
+msgstr ""
+
+msgctxt "s816"
+msgid "-COPY THAT."
+msgstr ""
+
+msgctxt "s818"
+msgid "-CORNER HIM."
+msgstr ""
+
+msgctxt "s820"
+msgid "[ INDISTINCT SHOUTING ]"
+msgstr ""
+
+msgctxt "s823"
+msgid "-LET ME SEE YOUR HANDS, MAN! -PUT YOUR HANDS!"
+msgstr ""
+
+msgctxt "s824"
+msgid "-LET ME SEE YOUR HANDS, MAN! -PUT YOUR HANDS!"
+msgstr ""
