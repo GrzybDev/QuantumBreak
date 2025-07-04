@@ -1,0 +1,144 @@
+name: Translation CI
+
+on:
+  push:
+    branches:
+      - main
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  generate-target:
+    name: Generate target files
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 11
+
+      - name: Prepare gradle config
+        run: |
+          echo "plugins { id 'org.omegat.gradle' version '1.5.9' }" > build.gradle
+          echo 'omegat { projectDir "." }' >> build.gradle
+
+      - name: Prepare work directory
+        run: |
+          mkdir -p target
+          mkdir -p glossary
+          mkdir -p tm
+
+      - name: Generate target files
+        uses: burrunan/gradle-cache-action@v3
+        with:
+          arguments: translate
+
+      - name: Report coverage
+        uses: miurahr/omegat-stat@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload target documents
+        uses: actions/upload-artifact@v4
+        with:
+          name: QuantumBreakPL_Target
+          path: target/*
+
+  build-mod:
+    name: Build mod files
+    needs: [generate-target]
+    permissions: write-all
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'release' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: assets
+      
+      - name: Prepare environment
+        run: |
+            sudo apt update && sudo apt install pipx
+            pipx install git+https://github.com/GrzybDev/NorthlightTools.git
+            pipx install git+https://github.com/GrzybDev/QuantumFetcher.git
+            pip install -r requirements.txt
+
+      - name: Download built target files
+        uses: actions/download-artifact@v4
+        with:
+          name: QuantumBreakPL_Target
+          path: target
+
+      - name: Build fonts
+        run: |
+            northlighttools binfnt compile target/fonts/customer_facing/customer_facing.json build/d_/data/fonts/locale/en/customer_facing.binfnt
+            northlighttools binfnt compile target/fonts/customer_facing_bold/customer_facing_bold.json build/d_/data/fonts/locale/en/customer_facing_bold.binfnt
+            northlighttools binfnt compile target/fonts/customer_facing_book/customer_facing_book.json build/d_/data/fonts/locale/en/customer_facing_book.binfnt
+            northlighttools binfnt compile target/fonts/customer_facing_light/customer_facing_light.json build/d_/data/fonts/locale/en/customer_facing_light.binfnt
+       
+      - name: Build string table
+        run: northlighttools string-table import target/locale/en/string_table.po build/d_/data/locale/en/string_table.bin 
+       
+      - name: Copy "Previously on" subtitles to build
+        run: cp -r target/globaldb build/d_/data/
+      
+      - name: Build Remedy Package
+        run: northlighttools rmdp pack build dist/data/ep999-000-pl.rmdp
+      
+      - name: Build video list
+        run: quantumfetcher --build-videolist-path videoList.json --videolist-path dist/data/videoList.rmdj
+      
+      - name: Build episode subtitles
+        run: python build_subtitles.py
+
+      - uses: robinraju/release-downloader@v1
+        with:
+            repository: GrzybDev/QuantumStreamer
+            latest: true
+            fileName: 'loc_x64_f.dll'
+            out-file-path: dist/dx11
+        
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: QuantumBreakPL_Build
+          path: dist/*
+
+  build-setup:
+    name: Build Installer
+    needs: [build-mod]
+    permissions: write-all
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: assets
+
+      - name: Download built final files
+        uses: actions/download-artifact@v4
+        with:
+          name: QuantumBreakPL_Build
+          path: dist
+
+      - name: Build Inno Setup Installer
+        uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
+        with:
+          path: setup.iss
+
+      - name: Upload setup artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: QuantumBreakPL_Setup
+          path: dist/*.exe
+
+      - name: Upload installer to Release
+        if: ${{ github.event_name == 'release' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./dist/*.exe
