@@ -1,0 +1,5 @@
+﻿Niniejsze spolszczenie jest udostępniane bezpłatnie i może być pobierane wyłącznie za pośrednictwem strony internetowej https://grzyb.dev. Zezwala się na udostępnianie odnośnika prowadzącego do strony pobierania osobom trzecim, jednak zabrania się dalszego rozpowszechniania samego pliku instalacyjnego ani żadnych składników spolszczenia w jakiejkolwiek innej formie.
+
+Spolszczenie udostępniane jest w modelu donationware. Oznacza to, że użytkownik może korzystać z niego bez jakichkolwiek opłat, a w przypadku uznania go za wartościowe, może dobrowolnie przekazać darowiznę na rzecz autora pod adresem https://buycoffee.to/grzybdev.
+
+Spolszczenie dostarczane jest „w stanie takim, w jakim jest”, bez jakichkolwiek gwarancji, wyraźnych ani dorozumianych, w tym między innymi gwarancji przydatności handlowej lub przydatności do określonego celu. Autorzy nie ponoszą odpowiedzialności za jakiekolwiek szkody powstałe w wyniku użytkowania lub niemożności użytkowania spolszczenia. Instalacja oraz korzystanie ze spolszczenia odbywa się wyłącznie na odpowiedzialność użytkownika.

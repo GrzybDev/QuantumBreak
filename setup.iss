@@ -1,0 +1,100 @@
+#define AppName "Spolszczenie do Quantum Break"
+#define AppVersion "1.0.0"
+#define AppPublisher "GrzybDev"
+#define AppURL "https://grzyb.dev/app/QuantumBreak"
+
+#define SetupFilename "QuantumBreak_PLFanTranslation_Setup"
+
+#define SteamAppId 474960
+#define SteamGameInstallDir "QuantumBreak"
+
+[Setup]
+ArchitecturesAllowed=x64compatible
+ArchitecturesInstallIn64BitMode=x64compatible
+AppId={#SteamGameInstallDir}_PLFanTranslation
+AppName={#AppName}
+AppVersion={#AppVersion}
+AppPublisher={#AppPublisher}
+AppPublisherURL={#AppURL}
+AppSupportURL={#AppURL}
+AppUpdatesURL={#AppURL}
+AllowNoIcons=yes
+SolidCompression=yes
+DefaultDirName={reg:HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Steam App {#SteamAppId},InstallLocation|C:\Program Files (x86)\Steam\steamapps\common\{#SteamGameInstallDir}}
+DefaultGroupName={#AppPublisher}\{#AppName}
+DirExistsWarning=no
+DisableWelcomePage=no
+SetupIconFile=installer\setup.ico
+UninstallDisplayIcon=installer\setup.ico
+LicenseFile=installer\LICENSE.txt
+InfoBeforeFile=installer\INFO.txt
+OutputDir=dist
+OutputBaseFilename={#SetupFilename}
+WizardImageFile=installer\branding.bmp
+WizardSmallImageFile=installer\setup.bmp
+WizardStyle=modern
+
+[Languages]
+Name: "polish"; MessagesFile: "compiler:Languages\Polish.isl"
+
+[Components]
+Name: "main"; Description: "Spolszczenie gry"; Types: full compact custom; Flags: fixed
+Name: "episodes"; Description: "Spolszczenie serialu"; Types: full
+
+[Files]
+Source: "dist\data\ep999-000-pl.bin"; DestDir: "{app}\data"; Components: main
+Source: "dist\data\ep999-000-pl.rmdp"; DestDir: "{app}\data"; Components: main
+Source: "dist\data\videoList.rmdj"; DestDir: "{app}\data"; Components: episodes; Flags: uninsneveruninstall
+Source: "dist\dx11\loc_x64_f.dll"; DestDir: "{app}\dx11"; Components: episodes; Flags: uninsneveruninstall
+Source: "dist\videos\episodes\*"; DestDir: "{app}\videos\episodes"; Components: episodes; Flags: recursesubdirs
+
+[Code]
+procedure CurStepChanged(CurStep: TSetupStep);
+var
+  UserDir: string;
+begin
+  if (CurStep = ssInstall) and IsComponentSelected('episodes') then
+  begin
+    UserDir := ExpandConstant('{app}');
+    
+    if FileExists(UserDir + '\dx11\loc_x64_f.dll') then
+    begin
+      if not RenameFile(UserDir + '\dx11\loc_x64_f.dll', UserDir + '\dx11\loc_x64_f_o.dll') then
+        MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku dx11\loc_x64_f.dll', mbError, MB_OK);
+    end;
+
+    if FileExists(UserDir + '\data\videoList.rmdj') then
+    begin
+      if not RenameFile(UserDir + '\data\videoList.rmdj', UserDir + '\data\videoList_original.rmdj') then
+        MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku data\videoList.rmdj', mbError, MB_OK);
+    end;
+  end;
+end;
+
+procedure CurUninstallStepChanged(CurUninstallStep: TUninstallStep);
+var
+  UserDir: string;
+begin
+  if (CurUninstallStep = usUninstall) then
+  begin
+    UserDir := ExpandConstant('{app}');
+
+    if FileExists(UserDir + '\dx11\loc_x64_f_o.dll') then
+    begin
+      if not DeleteFile(UserDir + '\dx11\loc_x64_f.dll') then
+        MsgBox('Nie udało się usunąć pliku: dx11\loc_x64_f.dll. Plik może być używany przez inny program.', mbError, MB_OK);
+      
+      if not RenameFile(UserDir + '\dx11\loc_x64_f_o.dll', UserDir + '\dx11\loc_x64_f.dll') then
+        MsgBox('Nie udało się przywrócić oryginalnego pliku dx11\loc_x64_f.dll. Upewnij się, że nie jest on aktualnie używany.', mbError, MB_OK);
+    end;
+
+    if FileExists(UserDir + '\data\videoList_original.rmdj') then
+    begin
+      if not DeleteFile(UserDir + '\data\videoList.rmdj') then
+        MsgBox('Nie udało się usunąć pliku: data\videoList.rmdj. Plik może być zablokowany.', mbError, MB_OK);
+
+      if not RenameFile(UserDir + '\data\videoList_original.rmdj', UserDir + '\data\videoList.rmdj') then
+        MsgBox('Nie udało się przywrócić oryginalnego pliku data\videoList.rmdj. Sprawdź, czy nie jest w użyciu.', mbError, MB_OK);
+    end;
+  end;
+end;
