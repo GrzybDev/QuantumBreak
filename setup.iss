@@ -56,17 +56,27 @@ begin
   if (CurStep = ssInstall) and IsComponentSelected('episodes') then
   begin
     UserDir := ExpandConstant('{app}');
-    
+
+    // Handle loc_x64_f.dll
     if FileExists(UserDir + '\dx11\loc_x64_f.dll') then
     begin
-      if not RenameFile(UserDir + '\dx11\loc_x64_f.dll', UserDir + '\dx11\loc_x64_f_o.dll') then
-        MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku dx11\loc_x64_f.dll', mbError, MB_OK);
+      // Only rename if the renamed file does not already exist
+      if not FileExists(UserDir + '\dx11\loc_x64_f_o.dll') then
+      begin
+        if not RenameFile(UserDir + '\dx11\loc_x64_f.dll', UserDir + '\dx11\loc_x64_f_o.dll') then
+          MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku dx11\loc_x64_f.dll', mbError, MB_OK);
+      end;
     end;
 
+    // Handle videoList.rmdj
     if FileExists(UserDir + '\data\videoList.rmdj') then
     begin
-      if not RenameFile(UserDir + '\data\videoList.rmdj', UserDir + '\data\videoList_original.rmdj') then
-        MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku data\videoList.rmdj', mbError, MB_OK);
+      // Only rename if the renamed file does not already exist
+      if not FileExists(UserDir + '\data\videoList_original.rmdj') then
+      begin
+        if not RenameFile(UserDir + '\data\videoList.rmdj', UserDir + '\data\videoList_original.rmdj') then
+          MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku data\videoList.rmdj', mbError, MB_OK);
+      end;
     end;
   end;
 end;
@@ -79,20 +89,32 @@ begin
   begin
     UserDir := ExpandConstant('{app}');
 
+    // Handle loc_x64_f.dll restoration
     if FileExists(UserDir + '\dx11\loc_x64_f_o.dll') then
     begin
-      if not DeleteFile(UserDir + '\dx11\loc_x64_f.dll') then
-        MsgBox('Nie udało się usunąć pliku: dx11\loc_x64_f.dll. Plik może być używany przez inny program.', mbError, MB_OK);
-      
+      // Attempt to delete current .dll if present
+      if FileExists(UserDir + '\dx11\loc_x64_f.dll') then
+      begin
+        if not DeleteFile(UserDir + '\dx11\loc_x64_f.dll') then
+          MsgBox('Nie udało się usunąć pliku: dx11\loc_x64_f.dll. Plik może być używany przez inny program.', mbError, MB_OK);
+      end;
+
+      // Restore the original
       if not RenameFile(UserDir + '\dx11\loc_x64_f_o.dll', UserDir + '\dx11\loc_x64_f.dll') then
         MsgBox('Nie udało się przywrócić oryginalnego pliku dx11\loc_x64_f.dll. Upewnij się, że nie jest on aktualnie używany.', mbError, MB_OK);
     end;
 
+    // Handle videoList.rmdj restoration
     if FileExists(UserDir + '\data\videoList_original.rmdj') then
     begin
-      if not DeleteFile(UserDir + '\data\videoList.rmdj') then
-        MsgBox('Nie udało się usunąć pliku: data\videoList.rmdj. Plik może być zablokowany.', mbError, MB_OK);
+      // Attempt to delete current file if present
+      if FileExists(UserDir + '\data\videoList.rmdj') then
+      begin
+        if not DeleteFile(UserDir + '\data\videoList.rmdj') then
+          MsgBox('Nie udało się usunąć pliku: data\videoList.rmdj. Plik może być zablokowany.', mbError, MB_OK);
+      end;
 
+      // Restore the original
       if not RenameFile(UserDir + '\data\videoList_original.rmdj', UserDir + '\data\videoList.rmdj') then
         MsgBox('Nie udało się przywrócić oryginalnego pliku data\videoList.rmdj. Sprawdź, czy nie jest w użyciu.', mbError, MB_OK);
     end;
