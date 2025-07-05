@@ -14,6 +14,8 @@ Jeśli zauważysz jakiekolwiek błędy w tłumaczeniu, koniecznie daj nam znać 
 Autorzy spolszczenia:
 
 - GrzybDev – tłumaczenie, technikalia, narzędzia, testy
-- Patryk10245 – testy
+- Patryk Joniak – testy, korekta
+
+Specjalne podziękowania dla @r00t0 za pomoc przy wyciąganiu klucza szyfrującego do pliku z listą adresów URL serialu.
 
 Możesz nas również znaleźć na: https://grajpopolsku.pl/forum/
