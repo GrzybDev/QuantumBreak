@@ -554,8 +554,8 @@ NATION'S TECHNOLOGICAL FRONTIERS</seg>
       <tuv lang="en-US">
         <seg>-A GOVERNMENT BILL TO CRACK DOWN ON LABORATORY EXPERIMENTS</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250228T131815Z" creationid="GrzybDev" creationdate="20250228T131815Z">
-        <seg>- Oczekuje się, że rządowa ustawa mająca na celu ograniczenie eksperymentów labolatoryjnych</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T190056Z" creationid="GrzybDev" creationdate="20250228T131815Z">
+        <seg>- Oczekuje się, że rządowa ustawa mająca na celu ograniczenie eksperymentów laboratoryjnych</seg>
       </tuv>
     </tu>
     <tu>
@@ -8511,8 +8511,8 @@ Przygotowania do fazy 3 operacji Monarch zakończone</seg>
       <tuv lang="en-US">
         <seg>&lt;o&gt;After faking his surrender, Jack makes his way across Gull Island to kidnap Dr. Sofia Amaral, the scientist who can make the time machine work.</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250421T104748Z" creationid="GrzybDev" creationdate="20250421T104748Z">
-        <seg>&lt;o&gt;Po udawanym poddaniu się, Jack przedostaje się przez wyspę mew, aby porwać dr Sofię Amaral, naukowca, który może sprawić, że wehikuł czasu zadziała.</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T154824Z" creationid="GrzybDev" creationdate="20250421T104748Z">
+        <seg>&lt;o&gt;Po udawanym poddaniu się, Jack przedostaje się przez Wyspę Mew, aby porwać dr. Sofię Amaral, naukowca, który może sprawić, że wehikuł czasu zadziała.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8623,8 +8623,8 @@ Przygotowania do fazy 3 operacji Monarch zakończone</seg>
       <tuv lang="en-US">
         <seg>&lt;o&gt;Jack makes his way into the Monarch mansion in order to locate Dr. Amaral.</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250421T104758Z" creationid="GrzybDev" creationdate="20250421T104758Z">
-        <seg>&lt;o&gt;Jack udaje się do rezydencji Monarch, aby zlokalizować dr Amaral.</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T154830Z" creationid="GrzybDev" creationdate="20250421T104758Z">
+        <seg>&lt;o&gt;Jack udaje się do rezydencji Monarch, by odnaleźć dr. Amaral.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8687,8 +8687,8 @@ Przygotowania do fazy 3 operacji Monarch zakończone</seg>
       <tuv lang="en-US">
         <seg>&lt;o&gt;With Dr. Amaral's reluctant help, Jack and Beth prepare William's original time machine for use.</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250421T104828Z" creationid="GrzybDev" creationdate="20250421T104828Z">
-        <seg>&lt;o&gt;Z niechętną pomocą dr Amaral, Jack i Beth przygotowują oryginalny wehikuł czasu Williama.</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T154842Z" creationid="GrzybDev" creationdate="20250421T104828Z">
+        <seg>&lt;o&gt;Z niechętną pomocą dr. Amaral, Jack i Beth przygotowują oryginalny wehikuł czasu Williama.</seg>
       </tuv>
     </tu>
     <tu>
@@ -46307,8 +46307,8 @@ WOJNA INFORMACYJNA
       <tuv lang="en-US">
         <seg>PRESS {@MENU_A} TO PLAY</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250703T150210Z" creationid="GrzybDev" creationdate="20250420T110610Z">
-        <seg>WCIŚNIJ {@MENU_A} ABY ZAGRAĆ</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T154526Z" creationid="GrzybDev" creationdate="20250420T110610Z">
+        <seg>WCIŚNIJ {@MENU_A}, ABY ZAGRAĆ</seg>
       </tuv>
     </tu>
     <tu>
@@ -46331,8 +46331,8 @@ WOJNA INFORMACYJNA
       <tuv lang="en-US">
         <seg>PROJECT PROMENADE LAB</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250420T114518Z" creationid="GrzybDev" creationdate="20250420T114518Z">
-        <seg>LABOLATORIUM PROJEKTU PROMENADA</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T190111Z" creationid="GrzybDev" creationdate="20250420T114518Z">
+        <seg>LABORATORIUM PROJEKTU PROMENADA</seg>
       </tuv>
     </tu>
     <tu>
@@ -56934,8 +56934,8 @@ Ten egzemplarz jest podpisany przez autora i dedykowany Emily Burke.</seg>
       <tuv lang="en-US">
         <seg>The corridor. The passenger enters one end, travels around the loop, exits the other... and arrives at the predetermined time in the physical location where the machine is situated in that time.</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250415T200249Z" creationid="GrzybDev" creationdate="20250415T200249Z">
-        <seg>Korytarz. Pasażer wchodzi, idzie wzdłóż pętli i wychodzi... w określonym czasie tam, gdzie znajduje się maszyna.</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T190952Z" creationid="GrzybDev" creationdate="20250415T200249Z">
+        <seg>Korytarz. Pasażer wchodzi, idzie wzdłuż pętli i wychodzi... w określonym czasie tam, gdzie znajduje się maszyna.</seg>
       </tuv>
     </tu>
     <tu>
@@ -70020,8 +70020,8 @@ Charlie</seg>
       <tuv lang="en-US">
         <seg>[0.8-4.5] The number one killer is time. It destroys us all.[7-14.2] This is what you need to know: time broke. A growing Fracture, leading to the End of Time.[17.1-19.5] We went after a device that could fix it.[20-27] Things turned ugly. Paul Serene was there to stop us. He has... super powers.[27.1-28.1] Him and me both.[30.5-31.5] We failed.[33-37.9] Of course, time travel was involved.[61.5-64] I came back home to see my best friend, Paul Serene. [65-67] He wanted to show me what he'd been working on.[69-71.9] My brother Will was a scientist. He was also involved. [73.6-75] Paul said it was "world-changing." [77.6-78.5] He was right.</seg>
       </tuv>
-      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250703T143010Z" creationid="GrzybDev" creationdate="20250415T141256Z">
-        <seg>[0.8-4.5] Największym zabójcą jest czas. Niszczy nas wszystkich.[7-14.2] Oto, co musisz wiedzieć: czas się rozerwał. Wyrwa rośnie i prowadzi do Końca Czasu.[17.1-19.5] Szukaliśmy urzadzenia, które mogło to wszystko naprawić.[20-27] Ale wszystko się zchrzaniło. Paul Serene próbował nas zatrzymać. Ma... super moce.[27.1-28.1] On i ja.[30.5-31.5] Zawiedliśmy.[33-37.9] A i oczywiście, w grę wchodziły podróże w czasie.[61.5-64] Wróciłem, aby zobaczyć się z moim najlepszym przyjacielem, Paulem Serene. [65-67] Chciał mi pokazać, nad czym pracował.[69-71.9] Mój brat, Will, był naukowcem. On również był w to zamieszany. [73.6-75] Paul powiedział, że to „odmieni świat.” [77.6-78.5] I miał rację.</seg>
+      <tuv lang="pl-PL" changeid="GrzybDev" changedate="20250705T154509Z" creationid="GrzybDev" creationdate="20250415T141256Z">
+        <seg>[0.8-4.5] Największym zabójcą jest czas. Niszczy nas wszystkich.[7-14.2] Oto, co musisz wiedzieć: czas się rozerwał. Wyrwa rośnie i prowadzi do Końca Czasu.[17.1-19.5] Szukaliśmy urzadzenia, które mogło to wszystko naprawić.[20-27] Ale wszystko się schrzaniło. Paul Serene próbował nas zatrzymać. Ma... super moce.[27.1-28.1] On i ja.[30.5-31.5] Zawiedliśmy.[33-37.9] A i oczywiście, w grę wchodziły podróże w czasie.[61.5-64] Wróciłem, aby zobaczyć się z moim najlepszym przyjacielem, Paulem Serene. [65-67] Chciał mi pokazać, nad czym pracował.[69-71.9] Mój brat, Will, był naukowcem. On również był w to zamieszany. [73.6-75] Paul powiedział, że to „odmieni świat.” [77.6-78.5] I miał rację.</seg>
       </tuv>
     </tu>
     <tu>
