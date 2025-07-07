@@ -63,7 +63,7 @@ jobs:
       
       - name: Prepare environment
         run: |
-            sudo apt update && sudo apt install pipx
+            sudo apt-get update && sudo apt-get install pipx
             pipx install git+https://github.com/GrzybDev/NorthlightTools.git
             pipx install git+https://github.com/GrzybDev/QuantumFetcher.git
             pip install -r requirements.txt
