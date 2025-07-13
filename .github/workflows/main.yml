@@ -65,7 +65,6 @@ jobs:
         run: |
             sudo apt-get update && sudo apt-get install pipx
             pipx install git+https://github.com/GrzybDev/NorthlightTools.git
-            pipx install git+https://github.com/GrzybDev/QuantumFetcher.git
             pip install -r requirements.txt
 
       - name: Download built target files
@@ -89,10 +88,7 @@ jobs:
       
       - name: Build Remedy Package
         run: northlighttools rmdp pack build dist/data/ep999-000-pl.rmdp
-      
-      - name: Build video list
-        run: quantumfetcher --build-videolist-path videoList.json --videolist-path dist/data/videoList.rmdj
-      
+
       - name: Build episode subtitles
         run: python build_subtitles.py
 
