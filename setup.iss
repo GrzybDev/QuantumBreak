@@ -44,7 +44,6 @@ Name: "episodes"; Description: "Spolszczenie serialu"; Types: full
 [Files]
 Source: "dist\data\ep999-000-pl.bin"; DestDir: "{app}\data"; Components: main
 Source: "dist\data\ep999-000-pl.rmdp"; DestDir: "{app}\data"; Components: main
-Source: "dist\data\videoList.rmdj"; DestDir: "{app}\data"; Components: episodes; Flags: uninsneveruninstall
 Source: "dist\dx11\loc_x64_f.dll"; DestDir: "{app}\dx11"; Components: episodes; Flags: uninsneveruninstall
 Source: "dist\videos\episodes\*"; DestDir: "{app}\videos\episodes"; Components: episodes; Flags: recursesubdirs
 
