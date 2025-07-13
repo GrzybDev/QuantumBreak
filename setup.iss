@@ -66,17 +66,6 @@ begin
           MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku dx11\loc_x64_f.dll', mbError, MB_OK);
       end;
     end;
-
-    // Handle videoList.rmdj
-    if FileExists(UserDir + '\data\videoList.rmdj') then
-    begin
-      // Only rename if the renamed file does not already exist
-      if not FileExists(UserDir + '\data\videoList_original.rmdj') then
-      begin
-        if not RenameFile(UserDir + '\data\videoList.rmdj', UserDir + '\data\videoList_original.rmdj') then
-          MsgBox('Wystąpił błąd podczas próby zmiany nazwy pliku data\videoList.rmdj', mbError, MB_OK);
-      end;
-    end;
   end;
 end;
 
