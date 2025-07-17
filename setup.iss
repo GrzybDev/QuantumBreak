@@ -9,6 +9,8 @@
 #define SteamGameInstallDir "QuantumBreak"
 
 [Setup]
+AppendDefaultDirName=no
+AppendDefaultGroupName=no
 ArchitecturesAllowed=x64compatible
 ArchitecturesInstallIn64BitMode=x64compatible
 AppId={#SteamGameInstallDir}_PLFanTranslation
