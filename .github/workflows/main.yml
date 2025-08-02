@@ -4,9 +4,23 @@ on:
   push:
     branches:
       - main
-  release:
-    types: [published]
   workflow_dispatch:
+    inputs:
+      version_type:
+        type: choice
+        description: 'Version Type'
+        required: true
+        default: rebuild
+        options:
+          - rebuild
+          - patch
+          - minor
+          - major
+      publish_release:
+        description: "Publish Release"
+        type: boolean
+        required: true
+        default: true
 
 jobs:
   generate-target:
@@ -58,8 +72,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: assets
       
       - name: Prepare environment
         run: |
@@ -106,21 +118,35 @@ jobs:
           path: dist/*
 
   build-setup:
-    name: Build Installer
+    name: Build installer
     needs: [build-mod]
     permissions: write-all
     runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: assets
+      - uses: fregante/setup-git-user@v2
+
+      - name: Install bump2version
+        run: pip install --upgrade bump2version
 
       - name: Download built final files
         uses: actions/download-artifact@v4
         with:
           name: QuantumBreakPL_Build
           path: dist
+      
+      - name: Version Bump
+        if: ${{ github.event.inputs.version_type != 'rebuild' }}
+        run: |
+            bump2version --list ${{ github.event.inputs.version_type }} | ForEach-Object {
+              if ($_ -match '^(.*?)=(.*)$') {
+                $key = $matches[1]
+                $value = $matches[2]
+                Add-Content -Path $env:GITHUB_ENV -Value "$key=$value"
+              }
+            }
+            git push --follow-tags
 
       - name: Build Inno Setup Installer
         uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
@@ -134,7 +160,8 @@ jobs:
           path: dist/*.exe
 
       - name: Upload installer to Release
-        if: ${{ github.event_name == 'release' }}
+        if: ${{ github.event.inputs.publish_release }}
         uses: softprops/action-gh-release@v2
         with:
           files: ./dist/*.exe
+          tag_name: v${{ env.new_version }}

@@ -1,0 +1,21 @@
+﻿SPOLSZCZENIE DO QUANTUM BREAK
+
+Ścieżka do gry powinna zostać wybrana automatycznie, jeżeli tak się nie stało musisz ją wybrać manualnie.
+
+Informacje:
+
+Instalator zamienia angielski język gry na polski.
+
+Spolszczenie obsługuje wyłącznie najnowszą wersję gry (Na Steamie - ID Kompilacji: 1412244 z dnia 18 Lipca 2020). Spolszczenie NIE zadziała na starszych wersjach ani nie jest w żaden sposób przez nas wspierane.
+
+Ważne!
+Jeśli zauważysz jakiekolwiek błędy w tłumaczeniu, koniecznie daj nam znać na Discordzie: https://discord.grupabaxa.org
+
+Autorzy spolszczenia:
+
+- GrzybDev – tłumaczenie, technikalia, narzędzia, testy
+- Patryk Joniak – testy, korekta
+
+Specjalne podziękowania dla @r00t0 za pomoc przy wyciąganiu klucza szyfrującego do pliku z listą adresów URL serialu.
+
+Możesz nas również znaleźć na: https://grajpopolsku.pl/forum/
