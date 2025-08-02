@@ -1,5 +1,5 @@
 #define AppName "Spolszczenie do Quantum Break"
-#define AppVersion "1.1.5"
+#define AppVersion "1.1.6"
 #define AppPublisher "GrzybDev"
 #define AppURL "https://grzyb.dev/app/QuantumBreak"
 
