@@ -87,10 +87,10 @@ jobs:
 
       - name: Build fonts
         run: |
-            northlighttools binfnt compile target/fonts/customer_facing/customer_facing.json build/d_/data/fonts/locale/en/customer_facing.binfnt
-            northlighttools binfnt compile target/fonts/customer_facing_bold/customer_facing_bold.json build/d_/data/fonts/locale/en/customer_facing_bold.binfnt
-            northlighttools binfnt compile target/fonts/customer_facing_book/customer_facing_book.json build/d_/data/fonts/locale/en/customer_facing_book.binfnt
-            northlighttools binfnt compile target/fonts/customer_facing_light/customer_facing_light.json build/d_/data/fonts/locale/en/customer_facing_light.binfnt
+            northlighttools binfnt compile target/fonts/customer_facing/customer_facing.xml build/d_/data/fonts/locale/en/customer_facing.binfnt
+            northlighttools binfnt compile target/fonts/customer_facing_bold/customer_facing_bold.xml build/d_/data/fonts/locale/en/customer_facing_bold.binfnt
+            northlighttools binfnt compile target/fonts/customer_facing_book/customer_facing_book.xml build/d_/data/fonts/locale/en/customer_facing_book.binfnt
+            northlighttools binfnt compile target/fonts/customer_facing_light/customer_facing_light.xml build/d_/data/fonts/locale/en/customer_facing_light.binfnt
        
       - name: Build string table
         run: northlighttools string-table import target/locale/en/string_table.po build/d_/data/locale/en/string_table.bin 
@@ -127,26 +127,42 @@ jobs:
       - uses: actions/checkout@v4
       - uses: fregante/setup-git-user@v2
 
-      - name: Install bump2version
-        run: pip install --upgrade bump2version
-
       - name: Download built final files
         uses: actions/download-artifact@v4
         with:
           name: QuantumBreakPL_Build
           path: dist
       
-      - name: Version Bump
-        if: ${{ github.event.inputs.version_type != 'rebuild' }}
+      - name: Install bump-my-version
+        run: pip install bump-my-version
+
+      - name: Get current version
+        id: get_version
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.version_type == 'rebuild' }}
+        run: echo "current_version=$(bump-my-version show current_version)" >> $GITHUB_OUTPUT
+
+      - name: Bump version
+        id: bump
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.version_type != 'rebuild' }}
         run: |
-            bump2version --list ${{ github.event.inputs.version_type }} | ForEach-Object {
-              if ($_ -match '^(.*?)=(.*)$') {
-                $key = $matches[1]
-                $value = $matches[2]
-                Add-Content -Path $env:GITHUB_ENV -Value "$key=$value"
-              }
-            }
-            git push --follow-tags
+          echo "previous-version=$(bump-my-version show current_version)" >> $GITHUB_OUTPUT
+          bump-my-version bump ${{ inputs.version_type }}
+          ([[ $? -gt 0 ]] && echo "bumped=false" || echo "bumped=true") >> $GITHUB_OUTPUT
+          echo "current-version=$(bump-my-version show current_version)" >> $GITHUB_OUTPUT
+
+      - name: Bump version (Manual)
+        id: bump_manual
+        if: ${{ github.event_name == 'release' }}
+        run: |
+          echo "previous-version=$(bump-my-version show current_version)" >> $GITHUB_OUTPUT
+          bump-my-version bump --new-version ${{ github.ref_name }}
+          ([[ $? -gt 0 ]] && echo "bumped=false" || echo "bumped=true") >> $GITHUB_OUTPUT
+          echo "current-version=$(bump-my-version show current_version)" >> $GITHUB_OUTPUT
+
+      - name: Push changes to GitHub
+        uses: ad-m/github-push-action@master
+        with:
+          force: true
 
       - name: Build Inno Setup Installer
         uses: Minionguyjpro/Inno-Setup-Action@v1.2.2
@@ -159,9 +175,22 @@ jobs:
           name: QuantumBreakPL_Setup
           path: dist/*.exe
 
-      - name: Upload installer to Release
-        if: ${{ github.event.inputs.publish_release }}
+      - name: Upload Release (manual)
+        if: ${{ github.event_name == 'release' }}
         uses: softprops/action-gh-release@v2
         with:
           files: ./dist/*.exe
-          tag_name: v${{ env.new_version }}
+            
+      - name: Upload Release
+        if: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.publish_release == 'true' && github.event.inputs.version_type != 'rebuild') || github.event_name == 'release' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./dist/*.exe
+          tag_name: v${{ needs.bump_version.outputs.new_version }}
+
+      - name: Upload Re-Release
+        if: ${{ (github.event_name == 'workflow_dispatch' && github.event.inputs.publish_release == 'true' && github.event.inputs.version_type == 'rebuild') && github.event_name != 'release' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./dist/*.exe
+          tag_name: v${{ needs.bump_version.outputs.current_version }}
